@@ -3,13 +3,12 @@
 def lasit_rinda():
     try:
         with open('parbaude.txt',"r", encoding="utf8") as datne:
-            for x in datne:
+            for z in datne:
                 print(datne.readline())
-
-
 
     except FileNotFoundError:
         print("Nav atrasta datne fails!")
 
 if __name__=="__main__":
     lasit_rinda()
+
